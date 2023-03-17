@@ -10,4 +10,4 @@
 
 5-// that prints a line of text using the function "printf"
 
-
+6-// that displays the size of different variables in byte
