@@ -8,4 +8,6 @@
 
 4-// that prints out the alphabet except the letters 'q' and 'e'
 
+5-// that prints out the digits of base 10 starting from 0
+
 
