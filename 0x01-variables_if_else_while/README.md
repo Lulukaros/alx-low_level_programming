@@ -6,4 +6,6 @@
 
 3-// that prints out the alphabet in both lowercase and uppercase
 
+4-// that prints out the alphabet except the letters 'q' and 'e'
+
 
