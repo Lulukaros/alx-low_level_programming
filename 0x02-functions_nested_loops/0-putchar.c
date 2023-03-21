@@ -13,6 +13,7 @@ _putchar(text[3]);
 _putchar(text[4]);
 _putchar(text[5]);
 _putchar(text[6]);
+_putchar(text[7]);
 _putchar('\n');
 return (0);
 }
