@@ -12,10 +12,9 @@ if (e < 0)
 _putchar(-e + 48);
 return (-e);
 }
-if (e > 0)
+else (e > 0)
 {
 _putchar(e + 48);
 return (e);
 }
-return (0);
 }
