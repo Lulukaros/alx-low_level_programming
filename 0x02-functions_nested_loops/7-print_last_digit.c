@@ -6,5 +6,14 @@
 */
 int print_last_digit(int a)
 {
-return (a % 10);
+int e = a % 10;
+if (a < 0)
+{
+return (-e);
+}
+if (a > 0)
+{
+return (e);
+}
+return (0);
 }
