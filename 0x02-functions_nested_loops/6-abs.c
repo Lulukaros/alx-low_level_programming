@@ -4,9 +4,8 @@
 *@int: takes the value of the integer
 *Return: Always 0
 */
-int _abs(int)
+int _abs(int e)
 {
-int e;
 if (e < 0)
 {
 return (-e);
