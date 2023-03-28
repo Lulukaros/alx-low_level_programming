@@ -8,16 +8,16 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int j;
 
-	for (i = 0; i < (n - 1); i++)
+	for (j = 0; j < n; j++)
 	{
-		_putchar(a[i]);
-	}
-		if (i == (n - 1))
+		_putchar(a[j]);
+		if (j != (n - 1))
 		{
-			_putchar(a[n - 1]);
+			_putchar(", ");
 		}
-			_putchar('\n');
+	}
+	_putchar('\n');
 }
 
