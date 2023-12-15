@@ -8,14 +8,19 @@
 void print_binary(unsigned long int n)
 {
 unsigned long int result;
-int c;
+int c, count;
 	for (c = 31; c >= 0; c--)
 	{
 		result = n >> c;
 
 		if (result & 1)
+		{
 			_putchar('1');
-		else
+			count++;
+		}
+		else if (count)
 			_putchar('0');
 	}
+	if (!count)
+		_putchar('0');
 }
