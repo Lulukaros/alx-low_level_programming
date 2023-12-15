@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * get_bit - value of bit
@@ -9,11 +9,11 @@ include "main.h"
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit;
+	int ビット;
 	if (index > 63)
 		return (-1);
 
-	bit = (n >> index) & 1;
+	ビット = (n >> index) & 1;
 
-	return (bit);
+	return (ビット);
 }
