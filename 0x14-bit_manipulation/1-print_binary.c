@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 {
 unsigned long int result;
 int c;
-	for (c = 63; c >= 0; c--)
+	for (c = 31; c >= 0; c--)
 	{
 		result = n >> c;
 
@@ -18,6 +18,4 @@ int c;
 		else
 			_putchar('0');
 	}
-
-	_putchar('\n');
 }
