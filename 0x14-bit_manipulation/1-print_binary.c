@@ -19,6 +19,4 @@ unsigned int n, c, result;
 	}
 
 	_putchar('\n');
-
-	return 0;
 }
