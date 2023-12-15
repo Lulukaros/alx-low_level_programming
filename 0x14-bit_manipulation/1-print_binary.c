@@ -1,16 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_binary - nn hh
  * Return: Always 0.
+ * @n: number to print in binary
  */
 
 void print_binary(unsigned long int n)
 {
-unsigned int decimal_num, c, result;
+unsigned int n, c, result;
 	for (c = 31; c >= 0; c--)
 	{
-		result = decimal_num >> c;
+		result = n >> c;
 
 		if (result & 1)
 			_putchar('1');
