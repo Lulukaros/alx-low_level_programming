@@ -7,8 +7,8 @@
 
 void print_binary(unsigned long int n)
 {
-unsigned long int n;
-int c, result;
+unsigned long int result;
+int c;
 	for (c = 31; c >= 0; c--)
 	{
 		result = n >> c;
